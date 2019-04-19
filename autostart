@@ -1,0 +1,6 @@
+conky &
+conky -c .conky/timerc &
+conky -c .conky/systrayrc &
+conky -c .conky/shortcutsrc &
+conky -c .conky/volumerc &
+nitrogen --restore &
