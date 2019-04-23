@@ -369,6 +369,21 @@
         <height>100%</height>
       </action>
     </keybind>
+    <keybind key="W-F9">
+      <action name="Execute">
+        <command>playerctl play-pause</command>
+      </action>
+    </keybind>
+    <keybind key="W-F10">
+      <action name="Execute">
+        <command>playerctl previous</command>
+      </action>
+    </keybind>
+    <keybind key="W-F11">
+      <action name="Execute">
+        <command>playerctl next</command>
+      </action>
+    </keybind>
     <!-- personnal  -->
     <keybind key="W-f" export="true">
       <action name="Execute">
