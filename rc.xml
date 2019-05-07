@@ -475,6 +475,15 @@
         <command>pavucontrol-qt</command>
       </action>
     </keybind>
+    <keybind key="W-b" export="true">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>Screen management</name>
+        </startupnotify>
+        <command>arandr</command>
+      </action>
+    </keybind>
     <keybind key="W-l" export="true">
       <action name="Execute">
         <startupnotify>
