@@ -1,6 +1,7 @@
 *
 !.gitignore
 !deploy.py
-!autostart
-!menu.xml
-!rc.xml
+!openbox/autostart
+!openbox/menu.xml
+!openbox/rc.xml
+!dunst/dunstrc
