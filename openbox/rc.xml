@@ -484,6 +484,15 @@
         <command>arandr</command>
       </action>
     </keybind>
+    <keybind key="W-i" export="true">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>Network management</name>
+        </startupnotify>
+        <command>networkmanager_dmenu</command>
+      </action>
+    </keybind>
     <keybind key="W-l" export="true">
       <action name="Execute">
         <startupnotify>
